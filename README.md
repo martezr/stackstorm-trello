@@ -81,7 +81,8 @@ https://trello.com/docs/gettingstarted/#getting-a-token-from-a-user
  name                  | description                                               
 ---------------------- | ----------------------------------------------------------
  `add_board`          | Create a new board                                        
- `add_card`           | Add a new card to a list                                  
+ `add_card`           | Add a new card to a list
+ `add_card_comment`   | Add a comment to a card                                   
  `add_list`           | Add a new list to a board                                 
  `close_board`        | Close a board                                             
  `close_card`         | Close a card                                              
