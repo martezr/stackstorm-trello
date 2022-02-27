@@ -5,6 +5,10 @@ description: Add a label to a card
 enabled: true
 entry_point: "add_card_label.py"
 parameters:
+  board_id:
+    type: string
+    description: The id of the card to add the label to
+    required: true
   card_id:
     type: string
     description: The id of the card to add the label to
