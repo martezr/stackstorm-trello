@@ -9,7 +9,7 @@ class FindLabelByNameAction(action.BaseAction):
         labels = []
         board = self._client().get_board(board_id)
         for label in board.get_labels('all'):
-            labels.append(label.id)
+            labels.append(label)
             if label.name == name:
                 labels.append(label.id)
 
