@@ -88,8 +88,9 @@ https://trello.com/docs/gettingstarted/#getting-a-token-from-a-user
  `close_card`         | Close a card                                              
  `close_list`         | Close a list belonging to a board                         
  `find_board_by_name` | Lookup a board ID based on name. Returns one or more IDs  
- `find_card_by_name`  | Lookup a Card ID based on name. Returns one or more IDs   
- `find_list_by_name`  | Lookup a list ID based on name. Returns one or more IDs   
+ `find_card_by_name`  | Lookup a card ID based on name. Returns one or more IDs   
+ `find_list_by_name`  | Lookup a list ID based on name. Returns one or more IDs
+ `find_member_by_name`  | Lookup a member ID based on name. Returns one or more IDs   
  `move_card`          | Move a card from one board/list to another board/list     
  `view_boards`        | Return a dictionary of all boards and their IDs           
  `view_cards`         | View all cards on a board                                 
