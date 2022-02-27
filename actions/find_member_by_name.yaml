@@ -7,11 +7,11 @@ entry_point: "find_member_by_name.py"
 parameters:
   name:
     type: string
-    description: Lookup a member ID based on name
+    description: Lookup a member ID based on their trello username
     required: true
   board_id:
     type: string
-    description: Board ID where list lives
+    description: Board ID where the members lives
     required: true
   api_key:
     type: string

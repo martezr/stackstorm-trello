@@ -9,7 +9,7 @@ class FindMemberByNameAction(action.BaseAction):
         members = []
         board = self._client().get_board(board_id)
         for member in board.all_members():
-            if member.name == name:
+            if member.username == name:
                 members.append(member.id)
 
         if not members:
