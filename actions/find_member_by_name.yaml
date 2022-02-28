@@ -11,7 +11,7 @@ parameters:
     required: true
   board_id:
     type: string
-    description: Board ID where the members lives
+    description: Board ID where the member lives
     required: true
   api_key:
     type: string

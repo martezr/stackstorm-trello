@@ -7,7 +7,7 @@ entry_point: "add_card_comment.py"
 parameters:
   card_id:
     type: string
-    description: Card ID to add a comment to
+    description: The ID of the card to add a comment to
     required: true
   comment:
     type: string

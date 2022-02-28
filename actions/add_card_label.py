@@ -8,10 +8,10 @@ class AddCardLabelAction(action.BaseAction):
 
         card = self._client().get_card(card_id)
         board = self._client().get_board(board_id)
-        outlabel = ""
+        matching_label = ""
         for label in board.get_labels('all'):
             if label.id == label_id:
-                outlabel = label
-        card.add_label(outlabel)
+                matching_label = label
+        card.add_label(matching_label)
 
         return card

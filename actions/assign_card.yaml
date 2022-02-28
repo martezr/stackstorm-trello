@@ -7,11 +7,11 @@ entry_point: "assign_card.py"
 parameters:
   card_id:
     type: string
-    description: The id of the card to assign the member to
+    description: The ID of the card to assign the member to
     required: true
   member_id:
     type: string
-    description: The id of the member to assign to the card
+    description: The ID of the member to assign to the card
     required: true
   api_key:
     type: string

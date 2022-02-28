@@ -7,7 +7,7 @@ entry_point: "unassign_card.py"
 parameters:
   card_id:
     type: string
-    description: Card ID to unassign the member from
+    description: The ID of the card to unassign the member from
     required: true
   member_id:
     type: string
